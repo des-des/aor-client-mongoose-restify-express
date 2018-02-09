@@ -1,0 +1,27 @@
+{
+  "name": "aor-client-mongoose-restify-express",
+  "description": "admin-on-rest client for mongoose-restify-express",
+  "author": "Eoin McCarthy",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "files": [
+    "src/index.js"
+  ],
+  "scripts": {
+    "build": "BABEL_ENV=build babel src --out-dir dist",
+    "test": "BABEL_ENV=test babel-node test/index.js"
+  },
+  "repository": "des-des/aor-client-mongoose-restify-express",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "querystring-browser": "^1.0.4",
+    "tape": "^4.8.0"
+  }
+}
